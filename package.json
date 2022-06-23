@@ -11,6 +11,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scripts": {
+    "build": "webpack"
+ },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VOOSsebastien/04-modern-javascript-anatomy.git"

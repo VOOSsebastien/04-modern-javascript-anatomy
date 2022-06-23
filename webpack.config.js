@@ -1,3 +1,3 @@
-module.exports={
-    mode:'production',
+module.exports = {
+  mode: "production",
 };

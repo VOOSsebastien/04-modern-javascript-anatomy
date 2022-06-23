@@ -1,8 +1,6 @@
 import Data from "./config.js";
-const searchBar = document.querySelector('#searchBar');
-const container = document.querySelector(".container");
-const cityNameContainer = document.querySelector('.city-name');
-const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+import {searchBar,container,cityNameContainer,weekdays} from "./config.js";
+import { children,addelem,removeel,ineer} from "./functions.js";
 //////////////////////:
 
 /////////////////
@@ -11,20 +9,7 @@ const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Frida
 ///fonctions globales
 //////////////////////
 //////////////////////
-var children = (where,argu) => {
-    where.appendChild(argu);
-}
-var addelem = (argu,nomel) =>{
-    argu.classList.add(nomel);
-}
-var removeel = (ell) =>{
-    while(ell.firstChild){
-        ell.removeChild(ell.firstChild)
-    }
-}
-var ineer = (argu,text) =>{
-    argu.innerHTML=text;
-}
+
 ////////////////////////////////
 ///////////////////////////////////
 //////////////////////////////////

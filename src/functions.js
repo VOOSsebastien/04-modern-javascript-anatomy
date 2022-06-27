@@ -11,4 +11,5 @@ export var removeel = (ell) => {
 };
 export var ineer = (argu, text) => {
   argu.innerHTML = text;
+  console.log("okok");
 };

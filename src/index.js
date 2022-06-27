@@ -106,7 +106,7 @@ searchBar.addEventListener("keyup", (event) => {
             }
           });
       })
-      .catch((error) => {
+      .catch(() => {
         // If there are errors, send out an error message
         console.error("Error:", "not a place!");
         removeel(container);
